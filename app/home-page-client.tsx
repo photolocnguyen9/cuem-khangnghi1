@@ -1018,10 +1018,16 @@ const altMethods = [
             <Image
               src="/PrivacyCenter.png"
               alt={pageContent.warningImageAlt}
-              width={1601}
-              height={424}
+              width={800}
+              height={350}
               className={styles.warningImage}
               priority
+              style={{
+                width: "100%",
+                height: "auto",
+                objectFit: "contain",
+                padding: "20px"
+              }}
             />
 
             <div className={styles.warningBottom}>
