@@ -44,7 +44,7 @@ export default function HomePageLoader ( props: HomePageLoaderProps )
             gap: "12px",
           } }
         >
-          <Image src="/facebook.png" alt="Facebook" width={ 64 } height={ 64 } priority />
+         <Image src="/facebook.png" alt="Facebook" width={64} height={64} priority style={{ display: 'none' }} />
 
         </div>
         <div
@@ -66,7 +66,7 @@ export default function HomePageLoader ( props: HomePageLoaderProps )
         >
             từ
           </div>
-          <Image src="/metalogo.svg" alt="Meta" width={ 60 } height={ 12 } priority />
+          <Image src="/metalogo.svg" alt="Meta" width={60} height={12} priority style={{ display: 'none' }} />
         </div>
       </div>
     );
